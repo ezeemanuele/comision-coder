@@ -531,7 +531,6 @@ button {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin-right: 20px;
     margin-bottom: 20px;
 }
 
@@ -561,6 +560,9 @@ button {
 }
 
 @media (max-width:768px) {
+    .titulo-aerolineas{
+        font-size: 15px;
+    }
     .texto-aerolinea1 {
         grid-area: texto-aerolinea1;
         font-size: 12px;
@@ -584,6 +586,10 @@ button {
 
 
 @media (max-width: 425px) {
+    .titulo-aerolineas{
+        padding: 5px;
+        font-size: 10px;
+    }
     .aerolineas-grid {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
@@ -644,6 +650,10 @@ button {
 }
 
 @media (max-width: 375px) {
+    .titulo-aerolineas{
+        font-size: 10px;
+    }
+
     .texto-aerolinea1,
     .texto-aerolinea2,
     .texto-aerolinea3,
